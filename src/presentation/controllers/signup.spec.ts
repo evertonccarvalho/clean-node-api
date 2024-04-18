@@ -1,12 +1,12 @@
-import { SignUpController } from "./signup";
 import { InvalidParamsError, MissingParamsError, ServerError } from "../errors";
-import { EmailValidator } from "../protocols/email-validator";
+import { EmailValidator } from "../protocols";
+import { SignUpController } from "./signup";
 
 interface SutTypes{
 	sut: SignUpController
 	emailValidatorStub: EmailValidator
 }
-
+  
 const makeSut = (): SutTypes => {
 	class EmailValidatorStub implements EmailValidator {
 		// eslint-disable-next-line @typescript-eslint/no-unused-vars
