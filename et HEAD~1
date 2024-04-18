@@ -1,0 +1,13 @@
+[34m117c8ff[31m (HEAD -> master) [37mfeat: ensure SignUpcontroller return an error if no name is provided - [36mÉverton Carvalho, [32m5 minutes ago
+[34mb177775[31m [37mfeat: ensure SignUpController retusn s 400 if no name is provided - [36mÉverton Carvalho, [32m11 minutes ago
+[34m8dd87e5[31m [37mchore: update depedencies - [36mÉverton Carvalho, [32m46 minutes ago
+[34mc4c458b[31m [37mchore: add jest to lintstaged - [36mÉverton Carvalho, [32m35 hours ago
+[34m3bca6ae[31m [37mchore: husky precoomit - [36mÉverton Carvalho, [32m35 hours ago
+[34mbfa4263[31m [37mchore: lintstaged - [36mÉverton Carvalho, [32m35 hours ago
+[34mab5c4a4[31m [37mmend - [36mÉverton Carvalho, [32m35 hours ago
+[34ma2ddf7a[31m [37mchore: add eslint - [36mÉverton Carvalho, [32m35 hours ago
+[34m1148748[31m [37mchore: add typescript - [36mÉverton Carvalho, [32m2 days ago
+[34m8e73d66[31m [37mchore: add husky - [36mÉverton Carvalho, [32m2 days ago
+[34m653f869[31m [37madd husky - [36mÉverton Carvalho, [32m2 days ago
+[34m5ab40f0[31m [37madd commit linter - [36mÉverton Carvalho, [32m2 days ago
+[34m8d205f4[31m [37mchore: add npm - [36mÉverton Carvalho, [32m2 days ago
