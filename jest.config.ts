@@ -3,15 +3,15 @@
  * https://jestjs.io/docs/configuration
  */
 
-import type { Config } from "jest";
+import type { Config } from 'jest';
 
 const config: Config = {
-	roots: ["<rootDir>/src"],
-	collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
-	coverageDirectory: "coverage",
-	testEnvironment: "jest-environment-node",
+	roots: ['<rootDir>/src'],
+	collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+	coverageDirectory: 'coverage',
+	testEnvironment: 'jest-environment-node',
 	transform: {
-		".+\\.ts$": "ts-jest",
+		'.+\\.ts$': 'ts-jest',
 	},
 	// clearMocks: true,
 	// coverageProvider: "v8",
