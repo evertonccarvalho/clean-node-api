@@ -3,7 +3,7 @@ import {
 	AddAccount,
 	AddAccountModel,
 	Encrypter,
-} from '../addAccount/db-add-account-protocols';
+} from './db-add-account-protocols';
 
 export class DbAddAccount implements AddAccount {
 	private readonly encrypter: Encrypter;
