@@ -5,13 +5,19 @@ interface SutTypes {
 	sut: DbAddAccount;
 	encrypterStub: Encrypter;
 }
-const makeSut = (): SutTypes => {
-	class EncrypterStub {
-		async encrypt(): Promise<string> {
+
+const makeEncrypter = (): Encrypter => {
+	class EncrypterStub implements Encrypter {
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
+		async encrypt(value: string): Promise<string> {
 			return new Promise((resolve) => resolve('hashed_password'));
 		}
 	}
-	const encrypterStub = new EncrypterStub();
+	return new EncrypterStub();
+};
+
+const makeSut = (): SutTypes => {
+	const encrypterStub = makeEncrypter();
 	const sut = new DbAddAccount(encrypterStub);
 	return {
 		sut,
